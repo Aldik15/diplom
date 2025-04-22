@@ -23,7 +23,7 @@ app = FastAPI(
     description="API для блога с аутентификацией",
     openapi_tags=[{"name": "auth", "description": "Аутентификация"}]
 )
-
+# Added
 # Настраиваем CORS
 origins = [
     "http://localhost:8080",
